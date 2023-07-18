@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --main-nav-color: #f8f9fd;
+    --mian-word-color: #e99c2f;
+    --main-words-colo: #61656f;
+    --main-proudects_w-color: #717173;
+    --main-proudect-color: #f8f9fc;
+}
+
+
+/* body {
+    height: 5000px;
+} */
+
+
+/***************start-nav*****************/
+
+nav {
+    min-height: 61px;
+    line-height: 61px;
+    background-color: var(--main-nav-color);
+}
+
+nav .word-1 {
+    text-transform: capitalize;
+    color: var(--mian-word-color);
+}
+
+nav .content ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content ul li {
+    list-style: none;
+}
+
+
+/* .content {
+    width: 50%;
+} */
+
+.content ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--main-words-color);
+}
+
+.content ul li a:hover {
+    color: var(--mian-word-color);
+}
+
+.container .icon {
+    color: #61656f;
+    text-align: center;
+}
+
+.container .icon i {
+    width: 43px;
+    position: relative;
+}
+
+
+/***************end-nav*****************/
+
+
+/***************start-header*****************/
+
+header {
+    background-color: var(--main-nav-color);
+    min-height: 392px;
+}
+
+header .left span {
+    text-transform: capitalize;
+    color: #8e8989;
+}
+
+header .left h2 {
+    text-transform: capitalize;
+    color: #626161;
+}
+
+header .left p {
+    margin-top: 25px;
+    width: 86%;
+    color: #8e8989;
+}
+
+header .salary {
+    color: #626161;
+}
+
+header .add {
+    display: flex;
+}
+
+header .add .i_add {
+    border: 16px solid var(--mian-word-color);
+    margin-top: 10px;
+    background-color: #e99c2f;
+    color: #f8f9fd;
+    width: 156px;
+    text-transform: capitalize;
+}
+
+header .add div {
+    color: #cf8a27;
+    margin-top: 21px;
+    text-align: center;
+    width: 215px;
+    text-transform: capitalize;
+}
+
+header .right img {
+    width: 300px;
+}
+
+
+/***************end-header*****************/
+
+
+/***************start-proudects*****************/
+
+.proudects .chair_1 {
+    border: 1px solid var(--main-proudect-color);
+    background-color: var(--main-proudect-color);
+    margin-top: 10px;
+    margin-left: -34px;
+    margin-right: 28px;
+    text-align: center;
+}
+
+.proudects .chair_1 div {
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #635f5f;
+}
+
+.proudects .chair_1 p {
+    color: var(--main-proudects_w-color);
+}
+
+.proudects .chair_2 {
+    border: 1px solid var(--main-proudect-color);
+    background-color: var(--main-proudect-color);
+    margin-top: 10px;
+    margin-left: -11px;
+    margin-right: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proudects .chair_2 .right_p {
+    width: 66%;
+}
+
+.proudects .chair_2 .right_p .latest {
+    text-transform: capitalize;
+    color: #635f5f;
+    font-weight: 700;
+}
+
+.proudects .chair_2 .right_p p {
+    color: var(--main-proudects_w-color);
+    margin-top: 14px;
+}
+
+.proudects .chair_2 .right_p .sales {
+    color: #4b4545;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.proudects .chair_2 .right_p .sales span {
+    color: var(--mian-word-color);
+}
+
+.proudects .chair_2 .right_p .discover {
+    border: 1px solid #61656f;
+    text-transform: capitalize;
+    text-align: center;
+    width: 162px;
+    height: 33px;
+    margin-top: 18px;
+}
+
+.proudects .chair_3 {
+    border: 1px solid var(--main-proudect-color);
+    background-color: var(--main-proudect-color);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.proudects .chair_3 div {
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #635f5f;
+}
+
+.proudects .chair_3 p {
+    color: var(--main-proudects_w-color);
+}
+
+
+/***************end-proudects*****************/
+
+
+/***************start-arrivals*****************/
+
+.arrivals h2 {
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    color: #767573;
+    margin-top: 70px;
+}
+
+.arrivals .arrival .ims {
+    background-color: #F8F9FB;
+    border: 67px solid #f8f9fc;
+    position: relative;
+}
+
+.arrivals .arrival .ims .sale {
+    border: 11px solid #d8924c;
+    position: absolute;
+    top: -75px;
+    right: -64px;
+    color: whitesmoke;
+    background: #d8924c;
+}
+
+.arrivals .arrival div {
+    text-align: center;
+    color: #63594c;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.arrivals .arrival .a-8 img {
+    padding: 4px;
+    margin-left: -35px;
+}
+
+
+/***************end-arrivals*****************/
+
+
+/***************start-banner*****************/
+
+.banner {
+    background-image: url(../images/collection/sofa-collection-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 108vh;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+}
+
+.banner .word_banner {
+    color: white;
+}
+
+.banner .word_banner h3 {
+    text-transform: capitalize;
+}
+
+.banner .word_banner span {
+    color: #633a00;
+}
+
+.banner .word_banner p {
+    width: 49%;
+}
+
+.banner .word_banner .view {
+    border: 1px solid #633a00;
+    background-color: #633a00;
+    width: 140px;
+    text-align: center;
+    height: 39px;
+    margin-top: 27px;
+    text-transform: capitalize;
+}
+
+
+/***************end-banner*****************/
+
+
+/***************start-features*****************/
+
+.featuerd h2 {
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    color: #767573;
+    margin-top: 70px;
+}
+
+.featuerd {
+    position: relative;
+}
+
+.star_re {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.fa-star {
+    color: #747474;
+}
+
+i.active {
+    color: var(--mian-word-color);
+}
+
+.rev {
+    color: var(--main-words-colo);
+}
+
+.wordss {
+    text-align: center;
+    text-transform: capitalize;
+    color: #484745;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.sal {
+    text-align: center;
+    color: #8a8885;
+    margin-top: 5px;
+}
+
+
+/***************end-features*****************/
+
+
+/***************start-blog*****************/
+
+.blogs h2 {
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    color: #767573;
+    margin-top: 70px;
+}
+
+.blogs .blog .parg {
+    color: #5b5b58;
+    font-weight: 700;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.blogs .blog .date {
+    text-transform: capitalize;
+    color: #c1bcb8;
+    margin-top: 14px;
+}
+
+.blogs .blog p {
+    color: #9d9895;
+    margin-top: 18px;
+}
+
+
+/***************end-blog*****************/
+
+
+/***************start-photo*****************/
+
+.photoo {
+    border-top: 1px solid #f8f9fd;
+    border-bottom: 1px solid #f8f9fd;
+    background-color: #f8f9fd;
+    min-height: 40vh;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.photoo img {
+    width: 126px;
+    text-align: center;
+}
+
+
+/***************end-photo*****************/
+
+
+/***************start-footer*****************/
+
+footer .items h4 {
+    text-transform: capitalize;
+    color: #5f5b57;
+}
+
+footer .items div {
+    text-transform: capitalize;
+    color: #a19f9d;
+    margin-top: 15px;
+}
+
+footer .items input {
+    margin-top: 19px;
+    text-transform: capitalize;
+}
+
+footer .items input:hover {
+    box-shadow: -2px 4px 16px 2px #a19f9d;
+}
+
+
+/***************end-footer*****************/
+
+
+/***************star-footer -und*****************/
+
+.under {
+    margin-top: 71px;
+    text-align: center;
+    color: #a19f9d;
+    background-color: #F8F9FB;
+}
+
+.under span {
+    margin-top: 5px;
+}
+
+.under .iconns i {
+    margin-top: 50px;
+    width: 40px;
+}
+
+
+/***************end-footer*****************/

@@ -1,0 +1,15 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "D:\\akram\\Sessions\\Session 20-Make website CSS\\site"
+		}
+	],
+    "settings": {
+        "liveServer.settings.port": 5501,
+        "liveServer.settings.multiRootWorkspaceName": "site-3",
+        "git.ignoreLimitWarning": true
+    }
+}
